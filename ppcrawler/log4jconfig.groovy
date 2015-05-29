@@ -19,7 +19,10 @@ log4j {
 		   appender."scrlog.layout"="org.apache.log4j.PatternLayout"
 		   appender."scrlog.layout.ConversionPattern"="%d %5p %c{1}:%L - %m%n"
 		   appender."scrlog.file"="crawler.log"
-		
+		   
+		   /**
+		   * @see org.apache.log4j.Level 		
+		   */
 		   rootLogger="info,scrlog,stdout"
 		
 }
